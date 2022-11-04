@@ -34,3 +34,17 @@
         color: rgb(0, 238, 218);
         cursor: pointer;
     }
+
+    .calcF {
+            display: none;
+        }
+
+        #input-calcF{
+            display: none;
+        }
+    h2{
+        color: rgb(0, 0, 0);
+    }
+    #input-calcF:checked + .calculadora .calcF{
+        display: block;
+    }
