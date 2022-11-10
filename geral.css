@@ -12,7 +12,12 @@
    color: rgb(0, 0, 0);
    padding: 2px;
    border-radius: 5px;
+   box-shadow: 5px 5px black;
 
+}
+
+.calculadora input:focus {  
+      background:black
 }
     #spTotal{
         background: black;
